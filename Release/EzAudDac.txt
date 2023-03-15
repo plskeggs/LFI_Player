@@ -1,0 +1,16 @@
+
+ EzSound Dac Driver V1.05 by Andrew Kibler
+ Loading file: E:\Asus_E-Drive(DATA)\Michael\Code\VS2022\LFI_Player\Release\EzAudDac.ini
+ Searching for sounds cards.. 
+ Sound Card 1 : Speakers (Realtek High Definition Audio)
+ Sound Card 2 : Realtek Digital Output (Realtek High Definition Audio)
+ Found 2 Sound Cards. 
+ SoundCard 2 Initializing... 
+ SoundCard 2 Initialized. 
+    Speakers:2 
+    Latency:30 ms
+    Minbuf:38ms
+ SoundstreamCreated. (2952790017)
+ SoundOutputStarted
+ Sound init done.
+Exiting

@@ -1,0 +1,47 @@
+On App Startup:
+Gem_PC::~Gem_PC()
+Device_EZAUDDAC::~Device_EZAUDDAC()
+Gem_PC::~Gem_PC()
+Midi::~Midi()
+CCommandLine::~CCommandLine()
+CCommandLineInfo::~CCommandLineInfo()
+
+On Opening Text File
+JobBlock::~JobBlock(void)
+
+On Play Button
+TextScroll::~TextScroll()
+PointBuff::~PointBuff()
+
+JobBlock::~JobBlock(void)
+JobBlock::~JobBlock(void)
+TextScroll::~TextScroll()
+PointBuff::~PointBuff()
+
+JobBlock::~JobBlock(void)
+JobBlock::~JobBlock(void)
+TextScroll::~TextScroll()
+PointBuff::~PointBuff()
+...over and over
+
+On Stop Button:
+CCheap3DView::OnFileClosetracklist()
+trackList.DeleteTrackList()
+
+On Application Close
+CCheap3DView::~CCheap3DView()
+Gem_PC::~Gem_PC()
+Gem_PC::~Gem_PC()
+Gem_PC::~Gem_PC()
+Gem_PC::~Gem_PC()
+Gem_PC::~Gem_PC()
+TrackList::~TrackList()
+  TrackList::DeleteTrackList()
+CMainFrame::~CMainFrame()
+CCheap3DDoc::~CCheap3DDoc()
+CCheap3DApp::~CCheap3DApp()
+  logFile.close()
+
+After last function call in CCheap3DApp::~CCheap3DApp()...
+HEAP[LFI_Player.exe]: Invalid address specified to RtlValidateHeap( 01430000, 010ECD54 )
+LFI_Player.exe has triggered a breakpoint.

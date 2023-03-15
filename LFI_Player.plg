@@ -1,0 +1,298 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LFI_Player - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/LFI_Player.res" /d "_DEBUG" "C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\LFI_Player.rc"" 
+Creating temporary file "C:\DOCUME~1\Michael\LOCALS~1\Temp\RSP14.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Abstract.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\AbstractControl.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Cheap3D.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Cheap3DDoc.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Cheap3DView.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\ColoredStatusBarCtrl.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\CommandLine.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Device_BSOFT_RGB.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Device_BSOFT_XYI.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Device_EasyLase.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Device_EzAudDac.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Device_GWS.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Device_None.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Device_RIYA.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\FontList.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Frame.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\FrameSeq.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Gem_pc.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\JobBlock.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\LiveControl.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\MainFrm.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\MidiBuffer.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\MidiIn.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\PageComSettings.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Point.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\PointBuff.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Preferences.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\PrefProppageBeamView.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\PrefProppageColor.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\PrefProppageDisplayTimer.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\PrefProppageIldaRecording.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\PrefProppageLiveControl.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\PrefProppageOutput.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\RichCommEdit.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Routines.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\SelectPort.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\TextScroll.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\Track.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\TrackLst.cpp"
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\View.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Michael\LOCALS~1\Temp\RSP14.tmp" 
+Creating temporary file "C:\DOCUME~1\Michael\LOCALS~1\Temp\RSP15.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/LFI_Player.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Laser\LFI_Player\Source\LFI_Player_V1_1_6\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Michael\LOCALS~1\Temp\RSP15.tmp" 
+Creating temporary file "C:\DOCUME~1\Michael\LOCALS~1\Temp\RSP16.tmp" with contents
+[
+winmm.lib serial.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/LFI_Player.pdb" /debug /machine:I386 /nodefaultlib:"libc.lib" /out:"Debug/LFI_Player.exe" /pdbtype:sept 
+.\Debug\Abstract.obj
+.\Debug\AbstractControl.obj
+.\Debug\Cheap3D.obj
+.\Debug\Cheap3DDoc.obj
+.\Debug\Cheap3DView.obj
+.\Debug\ColoredStatusBarCtrl.obj
+.\Debug\CommandLine.obj
+.\Debug\Device_BSOFT_RGB.obj
+.\Debug\Device_BSOFT_XYI.obj
+.\Debug\Device_EasyLase.obj
+.\Debug\Device_EzAudDac.obj
+.\Debug\Device_GWS.obj
+.\Debug\Device_None.obj
+.\Debug\Device_RIYA.obj
+.\Debug\FontList.obj
+.\Debug\Frame.obj
+.\Debug\FrameSeq.obj
+.\Debug\Gem_pc.obj
+.\Debug\JobBlock.obj
+.\Debug\LiveControl.obj
+.\Debug\MainFrm.obj
+.\Debug\MidiBuffer.obj
+.\Debug\MidiIn.obj
+.\Debug\PageComSettings.obj
+.\Debug\Point.obj
+.\Debug\PointBuff.obj
+.\Debug\Preferences.obj
+.\Debug\PrefProppageBeamView.obj
+.\Debug\PrefProppageColor.obj
+.\Debug\PrefProppageDisplayTimer.obj
+.\Debug\PrefProppageIldaRecording.obj
+.\Debug\PrefProppageLiveControl.obj
+.\Debug\PrefProppageOutput.obj
+.\Debug\RichCommEdit.obj
+.\Debug\Routines.obj
+.\Debug\SelectPort.obj
+.\Debug\StdAfx.obj
+.\Debug\TextScroll.obj
+.\Debug\Track.obj
+.\Debug\TrackLst.obj
+.\Debug\View.obj
+.\Debug\LFI_Player.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Michael\LOCALS~1\Temp\RSP16.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Abstract.cpp
+AbstractControl.cpp
+c:\laser\lfi_player\source\lfi_player_v1_1_6\abstractcontrol.cpp(730) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\abstractcontrol.cpp(731) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\abstractcontrol.cpp(732) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\abstractcontrol.cpp(733) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\abstractcontrol.cpp(735) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\abstractcontrol.cpp(736) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\abstractcontrol.cpp(737) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\abstractcontrol.cpp(738) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\abstractcontrol.cpp(739) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\abstractcontrol.cpp(740) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Cheap3D.cpp
+Cheap3DDoc.cpp
+Cheap3DView.cpp
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(412) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(473) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(473) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(474) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(474) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(479) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(484) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(640) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(640) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(641) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(641) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(701) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(701) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(702) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(702) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(1640) : warning C4244: 'initializing' : conversion from 'float' to 'unsigned char', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(1641) : warning C4244: 'initializing' : conversion from 'float' to 'unsigned char', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(1642) : warning C4244: 'initializing' : conversion from 'float' to 'unsigned char', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(1937) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(2012) : warning C4244: 'initializing' : conversion from 'double' to 'long', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(2116) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(2118) : warning C4244: 'argument' : conversion from 'long' to 'const unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(2150) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(2152) : warning C4244: 'argument' : conversion from 'long' to 'const unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(3003) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(3444) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(3447) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(3450) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(3500) : warning C4244: 'argument' : conversion from 'long' to 'const unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(3509) : warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(3969) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(3972) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewlaser.cpp(3975) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewcommands.cpp(219) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewtoolbar.cpp(437) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewtoolbar.cpp(438) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewcontrol.cpp(589) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewcontrol.cpp(591) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewcontrol.cpp(593) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewcontrol.cpp(595) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewcontrol.cpp(697) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewcontrol.cpp(698) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewcontrol.cpp(699) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dviewcontrol.cpp(700) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(295) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(295) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(295) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(295) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(1023) : warning C4244: 'argument' : conversion from 'double' to 'long', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(1302) : warning C4305: '=' : truncation from 'const double' to 'float'
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(1303) : warning C4305: '=' : truncation from 'const double' to 'float'
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(1304) : warning C4305: '=' : truncation from 'const double' to 'float'
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(1305) : warning C4305: '=' : truncation from 'const double' to 'float'
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(1306) : warning C4305: '=' : truncation from 'const double' to 'float'
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(1307) : warning C4305: '=' : truncation from 'const double' to 'float'
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(2286) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(2287) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(2288) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(2289) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(2290) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(2291) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(2658) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(2661) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(2664) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(2667) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(3786) : warning C4305: '=' : truncation from 'const double' to 'float'
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(3809) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(3810) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(3862) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(3862) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(3864) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(3864) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(3866) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(3866) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(3868) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\cheap3dview.cpp(3868) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+ColoredStatusBarCtrl.cpp
+CommandLine.cpp
+Device_BSOFT_RGB.cpp
+Device_BSOFT_XYI.cpp
+Device_EasyLase.cpp
+Device_EzAudDac.cpp
+Device_GWS.cpp
+Device_None.cpp
+Device_RIYA.cpp
+c:\laser\lfi_player\source\lfi_player_v1_1_6\device_riya.cpp(115) : warning C4244: 'argument' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\device_riya.cpp(209) : warning C4244: 'argument' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\device_riya.cpp(231) : warning C4244: 'argument' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\device_riya.cpp(237) : warning C4244: 'argument' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\device_riya.cpp(388) : warning C4244: 'argument' : conversion from 'long' to 'const unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\device_riya.cpp(388) : warning C4244: 'argument' : conversion from 'long' to 'const unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\device_riya.cpp(467) : warning C4244: 'argument' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\device_riya.cpp(479) : warning C4244: 'argument' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+FontList.cpp
+Frame.cpp
+FrameSeq.cpp
+Gem_pc.cpp
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(381) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(382) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(383) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(384) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(386) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(387) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(420) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(421) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(422) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(423) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(433) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(434) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(791) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(792) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(793) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(795) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(1016) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(1017) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(1042) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(1043) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(1099) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\gem_pc.cpp(1100) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+JobBlock.cpp
+LiveControl.cpp
+Generating Code...
+Compiling...
+MainFrm.cpp
+MidiBuffer.cpp
+MidiIn.cpp
+PageComSettings.cpp
+Point.cpp
+PointBuff.cpp
+Preferences.cpp
+PrefProppageBeamView.cpp
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(111) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(112) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(126) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(127) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(141) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(142) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(156) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(157) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(171) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(172) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(186) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(187) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(213) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(216) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(219) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(222) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(225) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\laser\lfi_player\source\lfi_player_v1_1_6\prefproppagebeamview.cpp(228) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+PrefProppageColor.cpp
+PrefProppageDisplayTimer.cpp
+PrefProppageIldaRecording.cpp
+PrefProppageLiveControl.cpp
+PrefProppageOutput.cpp
+RichCommEdit.cpp
+Routines.cpp
+SelectPort.cpp
+TextScroll.cpp
+Track.cpp
+TrackLst.cpp
+View.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+LFI_Player.exe - 0 error(s), 134 warning(s)
+</pre>
+</body>
+</html>

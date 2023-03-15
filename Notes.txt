@@ -1,0 +1,4 @@
+Cheap3DViewLaser.cpp
+
+CCheap3DView::DisplaySegment() calls gemLaserPtr->DrawLaser()
+CCheap3DView::DisplayAllTracks() calls gemLaserPtr->WriteCurrentDeviceBuffer()
